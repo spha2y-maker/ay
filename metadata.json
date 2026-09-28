@@ -1,0 +1,6 @@
+{
+  "name": "2026 담양여중 글로컬 죽향 역사문화 탐방 안전교육",
+  "description": "담양여자중학교 2026 글로컬 죽향 역사문화 탐방 사전 안전교육 및 시청각실 대화면 발표·학생 맞춤형 비상 대응 매뉴얼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

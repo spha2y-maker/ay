@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-dohyeon {
+    font-family: 'Do Hyeon', sans-serif;
+  }
+  .font-jua {
+    font-family: 'Jua', sans-serif;
+  }
+  .font-typewriter {
+    font-family: 'Space Mono', monospace;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: #1e293b !important;
+  }
+  header, footer, nav, button {
+    display: none !important;
+  }
+  .print\:block {
+    display: block !important;
+  }
+}
